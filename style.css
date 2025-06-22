@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to top right, #6dd5ed, #2193b0);
+  color: white;
+  padding: 20px;
+}
+
+.weather-app {
+  max-width: 600px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.current-weather {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.temperature {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.forecast {
+  text-align: center;
+}
+
+.forecast-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  width: 18%;
+  text-align: center;
+}
+
+.card img {
+  width: 50px;
+}
